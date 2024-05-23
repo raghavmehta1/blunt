@@ -16,6 +16,8 @@ const Page1 = () => {
       <main className="main-content">
         <h1 className="title">The Blunt</h1>
         <p className="subtitle">
+              <span className="arrow">↗</span>
+
           <span className="subtitle-text">कहानियां छोटे शहरों की</span>
         </p>
       </main>
