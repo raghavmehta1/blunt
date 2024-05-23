@@ -1,6 +1,5 @@
 import React from 'react'
 import './page1.css'
-import { FaLocationArrow } from "react-icons/fa";
 
 const Page1 = () => {
   return (
@@ -17,7 +16,6 @@ const Page1 = () => {
       <main className="main-content">
         <h1 className="title">The Blunt</h1>
         <p className="subtitle">
-          <span className="arrow"><FaLocationArrow /></span>
           <span className="subtitle-text">कहानियां छोटे शहरों की</span>
         </p>
       </main>
