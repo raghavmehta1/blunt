@@ -1,0 +1,73 @@
+.brand-stories-container {
+  text-align: center;
+  background-color: #1c1c3c;
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.subtitle {
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 2.25rem;
+
+
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.brands img {
+  margin: 10px;
+  width: 900px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.profiles img {
+  width: 200px;
+  height: 200px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.profile-active {
+  transform: scale(1.2);
+  padding: 10px;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation button {
+  background-color: #f7f3f3;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 300px;
+}
+
+.navigation button:hover {
+  background-color: #666;
+}
+.profile-left2,
+.profile-right2 {
+  transform: translateY(100px); 
+}
